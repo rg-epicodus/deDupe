@@ -20,8 +20,6 @@ class ReadJSON extends Component{
   }
 
   render() {
-
-
     return(
       <div>
         {this.state.people.map((person, index) => (
@@ -37,7 +35,6 @@ class ReadJSON extends Component{
     </div>
     );
   }
-
 }
 
 
